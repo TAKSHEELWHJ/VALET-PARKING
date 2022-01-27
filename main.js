@@ -74,7 +74,7 @@ function up(){
    }
 	 
    function down(){
-		 if(greencar_y <=500)
+		 if(greencar_y <=400)
 		 {
 			greencar_y=greencar_y+10;
 			   console.log("when down arrow is pressed, x= "+greencar_x +", y= "+greencar_y);
